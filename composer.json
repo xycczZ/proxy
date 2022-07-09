@@ -1,0 +1,30 @@
+{
+    "name": "xycc/proxy",
+    "description": "proxy",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xycc\\Proxy\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Xycc\\Proxy\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xycc",
+            "email": "xycc.love@xycc.love"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 8.0",
+        "nikic/php-parser": "4.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    }
+}
